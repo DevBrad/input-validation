@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="error"></div>
+    <form id="form" action="" method="GET">
+      <h2>Please register first</h2>
+      <label for="name">Name*</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="your name"
+        required
+      />
+      <label for="lastName">Last name*</label>
+      <input
+        type="text"
+        id="lastName"
+        name="lastName"
+        placeholder="your last name"
+        required
+      />
+      <label for="email">Email*</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="your e-mail"
+        required
+      />
+      <label for="name">Password*</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="your password"
+      />
+      <button type="submit">submit</button>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
